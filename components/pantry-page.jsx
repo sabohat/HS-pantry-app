@@ -180,7 +180,7 @@ export function PantryPage ({ pantryList }) {
             <DialogTitle>Confirm Removal</DialogTitle>
           </DialogHeader>
           <div>
-            <p>Are you sure you want to remove "{itemToDelete?.name}"?</p>
+            <p>Are you sure you want to remove &quot;{itemToDelete?.name}&quot;?</p>
           </div>
           <DialogFooter>
             <Button variant="outline" onClick={() => setIsDeleteConfirmationOpen(false)}>
